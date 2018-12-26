@@ -1,0 +1,102 @@
+/*文化中心*/
+/*标题*/
+.culture{
+	width: 98%;
+	/*height: 100%;*/
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	clear: both;
+}
+.culture h3{
+	float: left;
+	width: 95.5%;
+	height: 27px;
+	color: #FFFFFF;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+	margin: 10px 0 28px 10px;
+	border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+}
+/*内容*/
+.culture .text{
+	width: 98%;
+	margin-left: 10px;
+	overflow-x: scroll;
+	padding-bottom: 4px;
+}
+/*图片*/
+.culture .text .row1 img{
+	margin: 18px auto;
+}
+.culture .text .row1{
+	display: flex;
+	width: 100%;
+}
+.row1_01{
+	float: left;
+}
+.culture .text .row1 .box1{
+	width: 256px;
+	height: 256px;
+	border: 1px solid #D1D0CC;
+	background-color: #F7F7F5;
+	margin: 0 22px 44px 38px;
+}
+.culture .text .row1 .box2{
+	width: 256px;
+	height: 256px;
+	border: 1px solid #D1D0CC;
+	background-color: #F7F7F5;
+	margin: 0 22px 22px 38px;
+}
+.culture .text .row1 .box3{
+	position: absolute;
+	float: left;
+	width: 560px;
+	height: 560px;
+	border: 1px solid #D1D0CC;
+	background-color: #F7F7F5;
+	margin-left: 22px;
+}
+.culture .text .row1 .box3 .text1{
+	position: relative;
+	left: 18px;
+	top: -88px;
+	height: 70px;
+	width: 93.5%;
+	background-color: #000;
+	opacity:0.5;
+}
+.culture .text .row1 .box3 p{
+	line-height: 26px;
+	color: #fff;
+	position: relative;
+	left: 52px;
+	top: -148px;
+}
+
+/*第二行*/
+.culture .text .row2{
+	display: flex;
+	width: 100%;
+}
+.culture .text .row2 img{
+	margin: 18px auto;
+}
+.culture .text .row2 .box1{
+	width: 256px;
+	height: 256px;
+	border: 1px solid #D1D0CC;
+	background-color: #F7F7F5;
+	margin: 0 22px 44px 38px;
+}
+.culture .text .row2 .box2{
+	width: 256px;
+	height: 256px;
+	border: 1px solid #D1D0CC;
+	background-color: #F7F7F5;
+	margin: 0 22px 44px 22px;
+}

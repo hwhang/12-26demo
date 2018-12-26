@@ -1,0 +1,46 @@
+/*公司简介*/
+.main{
+	display: flex;
+}
+
+.company{
+	width: 98%;
+	height: 585px;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+}
+
+.company h3{
+	float: left;
+	width: 95.5%;
+	height: 27px;
+	color: #FFFFFF;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+}
+
+.company .text h2{
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.company .text p{
+	width: 96%;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 24px;
+	text-indent:2em; /*文本空开头两行*/
+	overflow: hidden;
+}
+.company .text .title{
+	font-weight: bold;
+    padding-top: 22px;
+}
+

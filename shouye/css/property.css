@@ -1,0 +1,81 @@
+/*物业管理*/
+.property{
+	width: 98%;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	clear: both;
+}
+
+.property h3{
+	float: left;
+	width: 95.5%;
+	height: 27px;
+	color: #FFFFFF;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+}
+
+.property .title p{
+	width: 96%;
+	margin: 0 auto;
+	text-indent: 2em;
+	padding-top: 50px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.property .text li{
+	margin: 10px auto 0;
+	width: 96%;
+	height: 129px;
+	border-top: 1px dashed #B6B6B6;
+}
+.property .text li img{
+	margin-top: 8px;
+	float: left;
+	width: 156px;
+	height: 103px;
+}
+
+.property .text li h4{
+	height: 25px;
+	width: 156px;
+	margin: 8px 0 16px 167px;
+	font-size: 14px;
+	line-height: 25px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+}
+.property .text li .t1{
+	background-color: #006766;
+}
+.property .text li .t2{
+	background-color: #989933;
+}
+.property .text li .t3{
+	background-color: #B065CC;
+}
+.property .text li .t4{
+	background-color: #CC6601;
+}
+.property .text li .t5{
+	background-color: #CC6566;
+}
+.property .text li p{
+	font-size: 14px;
+	line-height: 24px;
+	margin-left: 167px;
+	/*多行隐藏*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;     /*第几行省略号*/
+	-webkit-box-orient: vertical;
+}

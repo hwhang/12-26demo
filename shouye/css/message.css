@@ -1,0 +1,58 @@
+/*联系我们*/
+/*标题*/
+.connect{
+	width: 98%;
+	/*height: 100%;*/
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	clear: both;
+	padding-bottom: 178px;
+}
+.connect h3{
+	float: left;
+	width: 95.5%;
+	height: 27px;
+	color: #FFFFFF;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+	margin: 10px 0 0 10px;
+	border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+}
+/*内容*/
+.connect .text{
+	display: inline-block;
+	width: 98%;
+	margin-left: 1%;
+	height: 84px;
+	text-align: center;
+	border-bottom: 1px dashed #B6B6B6;
+}
+.connect .text h2{
+	margin-top: 18px;
+	margin-bottom: 16px;
+	font-size: 18px;
+}
+.connect .text p{
+	font-size: 16px;
+}
+.connect .table{
+	margin: 25px auto 0;
+	width: 850px;
+}
+.connect .table th{
+	vertical-align: middle;
+	height: 33px;
+	width: 30%;
+	background-color: #318C5F;
+	border: 1px solid #318C5F
+}
+.connect .table td{
+	text-align: center;
+	vertical-align: middle;
+	height: 34px;
+	font-size: 14px;
+	border: 1px solid #318C5F;
+}

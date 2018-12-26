@@ -1,0 +1,60 @@
+/*后勤保障*/
+/*标题*/
+.logistics{
+	width: 98%;
+	height: 555px;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	clear: both;
+}
+.logistics h3{
+	float: left;
+	width: 95.5%;
+	height: 27px;
+	color: #FFFFFF;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+}
+/*内容*/
+.logistics .text{
+	clear: both;
+	margin: 0 auto;
+	width: 98%;
+	height: 222px;
+	padding-top: 14px;
+	border-bottom: 1px dashed #B6B6B6;
+}
+.logistics .text img{
+	float: left;
+	width: 268px;
+	height: 203px;
+}
+
+.logistics .text h4{
+	width: 156px;
+	height: 25px;
+	margin: 0 0 16px 282px;
+	font-size: 14px;
+	line-height: 25px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	text-indent: 1em;
+}
+
+.logistics .text .t1{
+	background-color: #006766;
+}
+.logistics .text .t2{
+	background-color: #989933;
+}
+.logistics .text p{
+	font-size: 14px;
+	line-height: 24px;
+	margin-left: 31.5%;
+}

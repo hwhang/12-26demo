@@ -1,0 +1,115 @@
+/*新闻中心*/
+/*标题*/
+.news{
+	width: 98%;
+	/*height: 100%;*/
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	clear: both;
+}
+.news h3{
+	float: left;
+	width: 95.5%;
+	height: 27px;
+	color: #FFFFFF;
+	line-height: 27px;
+	padding-left: 24px;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+	background: url("../img/icon copy 18.png") no-repeat #303338 8px 10px ;
+}
+
+/*内容*/
+
+.news .text{
+	width: 98%;
+	margin-left: 10px;
+	overflow: hidden;
+	padding-bottom: 4px;
+}
+
+.news .text ul{
+	/*padding: 0.67%;*/
+	width: 100%;
+}
+.news .text ul .list{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #ccc;
+	background: url("../img/21.png") no-repeat 10px 15px;
+}
+/*.news .text ul .list:last-child{
+	border-bottom: none;
+}*/
+
+.news .text ul .list a{
+	font-size: 14px;
+    padding-left: 23px;
+    color: #000000;
+}
+
+.news .text ul .list a span{
+	position: relative
+}
+.hot{
+	position: absolute;
+	top: 3px;
+	right: -32px;
+	width: 21px;
+	height: 11px;
+	text-align: center;
+	font-size: 5px;
+	line-height: 11px;
+	border-radius: 2px;
+	background: red;
+	color: #FFFFFF;
+	transform: scale(1);
+}
+.time{
+	float: right;
+	padding-right: 10px;
+}
+
+/*页码*/
+.box{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    
+	height: 40px;
+	width: 28%;
+	margin-left: 75%;
+	text-align: center;
+}
+.box button{
+	width: 16px;
+	height: 16px;
+	margin:0 15px 0;
+	border: 1px solid #9dd3e2;
+}
+/*箭头符号*/
+.box .left{
+	background: url("../img/left.png") no-repeat 2px 2px;
+}
+.box .right{
+	background: url("../img/right.png") no-repeat 4px 2px;
+}
+
+
+.box a{
+	color: #9dd3e2;
+	display: inline-block;
+	border: 1px solid #fff;
+    width: 14px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+	margin:0 15px 0;
+}
+.box a:hover{
+	border: 1px solid #9dd3e2;
+}
